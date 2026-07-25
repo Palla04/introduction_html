@@ -1,0 +1,41 @@
+div{
+    background-color: black;
+    border: 5px solid white;
+    height:50px;
+    padding:0;
+    margin:0;
+}
+#h1{
+    font-size: 35px;
+      color:rgb(222, 113, 4);
+      margin-right:200px;
+      padding-bottom:30px;
+}
+#h2{
+    color:white;
+    margin-right:200px;
+    padding-bottom:30px;
+}
+#h3{
+    color:white;
+    margin-right:200px;
+    padding-bottom:30px;
+}
+
+#h4{
+    color:white;
+    margin-right:200px;
+    padding-bottom:30px;
+}
+input{
+    margin-right:0;
+    height:20px;
+}
+button{
+    color:white;
+    background-color: darkorange;
+}
+body{
+    background-color: blue;
+}
+

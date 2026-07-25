@@ -1,0 +1,31 @@
+#contener{
+    width: 400px;
+    height: 600px;
+    border:2px solid black;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    /* align-items: center; */
+    align-content: start;
+ }
+ #div1
+ {
+    height: 100px;
+    width: 150px;
+    background-color: aqua;
+ }
+ #div2{
+    height: 200px;
+    width: 100px;
+    background-color: burlywood;
+ }
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+#div4{
+    height:100px;
+    width: 150px;
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,45 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(205, 218, 227);
+}
+#hello{
+    
+    @media(max-width : 300px){
+        background-color: green;
+    }
+}
+
+#pre{
+    border-radius: 50%;
+    border:10px solid green;
+    border-top:10px solid #000000;
+    @media(min-width : 300px) and (max-width : 400px){
+        background-color: rgb(195, 72, 45);
+    }
+    @media(min-width : 400px) and (max-width : 600px){
+        background-color: rgb(127, 62, 196);
+    }
+    @media(min-width : 600px){
+        background-color: rgb(80, 230, 112);
+    }
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    animation: spinAnimate 3s ease-in 2s infinite normal;
+
+}
+#piku{
+    position:absolute;
+    top:30%;
+    left:30%;
+}
+
+@keyframes spinAnimate{
+    from { 
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

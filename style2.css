@@ -1,0 +1,25 @@
+#hello{
+    text-align: center;
+    text-decoration:black dotted;
+    font-weight: bold;
+}
+#hi{
+    text-align: center;
+    text-decoration:black underline;
+    font-weight: lighter;
+}
+#myid{
+    /* text-align: center; */
+    text-decoration:black line-through;
+    font-weight: 100;
+}
+p{
+    text-align: end;
+
+}
+#one{
+    font-family: arial;
+}
+#two{
+    font-family: cursive;
+}

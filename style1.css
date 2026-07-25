@@ -1,0 +1,21 @@
+*{
+    color: rgb(93, 131, 164);
+}
+h1{
+    color: rgb(89, 147, 31);
+}
+#headingOne{
+    color: brown;
+    text-decoration: yellow underline;
+}
+.head{
+    color: blueviolet;
+    text-decoration:white line-through;
+}
+button{
+    color-scheme: rgb(174, 230, 223);
+    background-color: black;
+}
+body{
+    background-color: rgb(242, 182, 161);
+}
